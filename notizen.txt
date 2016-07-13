@@ -1,0 +1,22 @@
+
+Wir arbeiten mit eigenem grid-layout und erklären kurz im Code, wie die Nutzer es anpassen können. 
+Erstellung erfolgt zB. über Dreamweaver.
+Wir benutzen nur html und css (außer bei manchen Sachen (wie dieser twitterbutton zb) 
+	da können wir auch bisschen jv verwenden, wenn es wirklich nötig ist).
+
+Vorschlag: 
+1) 2-3 verschiedene von uns vorgefertigte Gridlayouts, die der Nutzer wählen kann, aber auch verändern kann. 
+	-> sollten responsive sein.
+
+2) 2-3 verschiedene Styles (Schrift, Farbdesign usw), die der Nutzer wählen kann.
+
+3) verschiedene selbsterstellte Buttons bzw Icons zur Verfügung. 
+	Buttons -> http://livetools.uiparade.com/button-builder.html# -> Buttons designen und Code kopieren.
+	Icons -> mit Photoshop?
+
+4) main.hmtl ist kommentiert, es werden basics erklärt.
+ccs skript auch kommentiert, aber nicht so ausführlich. (Verweis im main.html)
+
+-- 
+Social Buttons for Bootstrap by https://lipis.github.io/bootstap-social/
+Font Awesome by https://github.com/FortAwesome/Font-Awesome
