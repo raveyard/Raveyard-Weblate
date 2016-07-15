@@ -1,4 +1,5 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html>
 <!-- WELCOME TO RAVEYARD-WEBLATE! -->
 
 <!-- THE BASICS: -->
@@ -8,7 +9,7 @@
 <!-- You can't see the comments on your website. You have to use < ! - - and - - > (without spaces) to close 
 the comment or it will include everything as a comment that follows until you close it. -->
 
-<!-- TAG -->
+<!-- TAGS -->
 <!-- 
 You have to use tags to tell the html document in what way it should output your text.
 There are many different tags:
@@ -30,18 +31,12 @@ You can add different sized headlines to your website.
 <h6> ... </h6>
 The bigger the number, the smaller the size.
 
-IMG
-
-Videosource
-
-Different Tags
  -->
- 
-<html>
 <head> <!-- In the head are information like the title of the website and what stylesheets are used. 
 Remember to copy the whole head into all of your sites! -->
 <meta charset="utf-8"> 
 <title>Raveyard Weblate</title> <!-- Here you can put your own Title -->
+
 
 <!-- This is the external .css file from Bootstrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -51,17 +46,16 @@ Remember to copy the whole head into all of your sites! -->
 Don't change it if you don't know what you're doing!-->
 <link rel="stylesheet" href="css/style.css">
 
-<!--These are the stylesheets, where you can change fonts and colors. 
-To use them, remove the comment Tag or rather add the tag.
+<!--This is the stylesheet, where you can change fonts and colors. 
+To use it, remove the comment Tag or rather add the tag.
 Don't forget to change it for all your sites!
 Create your own color style or choose between those 4 color schemes: -->
 <link rel="stylesheet" href="css/ownstyle.css"> <!-- this is now selected -->
-<!--<link rel="stylesheet" href="css/colorscheme_black.css"> -->
+<!-- <link rel="stylesheet" href="css/colorscheme_black.css"> -->
 <!--<link rel="stylesheet" href="css/colorscheme_vanilla.css"> -->
 <!-- <link rel="stylesheet" href="css/colorscheme_blue.css"> -->
-<!--<link rel="stylesheet" href="css/colorscheme_lilac.css">-->
-<!--<link rel="stylesheet" href="css/colorscheme_green.css"> -->
-
+<!-- <link rel="stylesheet" href="css/colorscheme_lilac.css"> -->
+<!--  <link rel="stylesheet" href="css/colorscheme_green.css"> -->
 
  <!-- These are the external files for the social media glyphicons -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -71,7 +65,7 @@ Create your own color style or choose between those 4 color schemes: -->
 <!-- This is the google font style, if you want to change it, visit https://www.google.com/fonts and insert the new style here 
 and modify the ownstyle.css (or another .css depending on what scheme you chose)
 -->
-<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic|Quicksand' rel='stylesheet' type='text/css'>
  
  
 <!-- This is the external .js file from Bootstrap -->
@@ -86,6 +80,7 @@ and modify the ownstyle.css (or another .css depending on what scheme you chose)
  <!-- Navigation
 	First you have to adjust the Navigationbar. The Navbar has to be in all of your sites at the beginning. 
 	-->
+	
      <a href="#cd-nav" class="cd-nav-trigger">Menu 
         <span class="cd-nav-icon"></span>
 
@@ -94,13 +89,13 @@ and modify the ownstyle.css (or another .css depending on what scheme you chose)
 			stroke-width="2" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
         </svg>
     </a>
-        
+  
     <div id="cd-nav" class="cd-nav">
      <div class="cd-navigation-wrapper">
         <div class="cd-half-block">
             <nav>
               <ul class="cd-primary-nav">
-                <li><a href="Main.html">Home</a></li>  <!-- This is the Navigation Bar -->
+                <li><a href="Home.html">Home</a></li>  <!-- This is the Navigation Bar -->
 				<li><a href="Bio.html">Biography</a></li> <!-- You can change the names, but if you do it, remember to change the filenames in the folder, too! -->
 				<li><a href="About.html">About</a></li> <!-- e.g. if you change "About" to "Team", you have to rename the "About.html" also to "Team.html"! -->
 				<li><a href="#">etc</a></li>
@@ -126,33 +121,22 @@ and modify the ownstyle.css (or another .css depending on what scheme you chose)
             </div>
         </div> 
     </div>
-
 <!-- Here starts your website!-->
-     <div class="intro-header">
-	 <div id="intro-header-main">
+ <header id="intro-header-main">
+ <!-- This is the "Header" of your website. It strechtes over the whole width of the screen.
+  You can write there important things e.g. what kind of portfolio this is.
+  You can add your own background picture if you open the ownstyle.css (or one of the colorscheme files), search "Background Header" and insert the url
+  or the path of the picture in "background" -->
         <div class="container">
-			<div class="row">
-                <div class="col-lg-12">	<!-- This is the "Header" of your website. It strechtes over the whole width of the screen.
-  You can write there important things e.g. what kind of portfolio this is.-->
-		<div class="intro-message">
-          <h1 class="headertext">Welcome to Raveyard-Weblate!</h1>
-		  	<hr class="intro-divider">
-          <h3 class="headertext">This is a responsive website template for portfolios. It's simple and perfect for beginners. <br/>
-		  It's for people who want to learn the basics of html and css. The code is commented and easy to understand.</h3>
-		  
-		<!-- You can add your own background picture if you open the style.css and search ".intro-header" and insert the url
-		or the path of the picture in "background" -->
+            <div class="intro-text">
+                <div class="intro-heading">Welcome to <br/> Raveyard-Weblate!</div>
+                <div class="intro-lead-in">This is a responsive website template for portfolios.</div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  </div>
- </div>
-<br/>
-<br/>
-<br/>
-<br/>
-<div class="container-fluid">
+    </header>
+	
+	 <!-- Page Content -->
+	 <div class="container-fluid">
     <div class="row text-center">
             <div class="col-lg-12">
                 <ul class="breadcrumb">
@@ -176,14 +160,12 @@ and modify the ownstyle.css (or another .css depending on what scheme you chose)
                 </ul>
             </div>
 		</div>
-		</div>
-		
-		
-	 <!-- Page Content -->
-       <!-- #1 -->
-	   <!-- you can add pictures here, 2 per row. if you want to have more rows, just copy from * to * and paste it.-->
-
-<div class="col-lg-12">
+<div class="container-fluid">
+	<!-- #1 -->
+	   <!-- you can add pictures here, 2 per row. if you want to have more rows, just copy from * to * and paste it.
+			To add pictures put them in the folder "images" or copy the address into "src":
+			>src="images/yourpicture.jpg"< OR >src="https://www.yourpicture..." < 
+			-->
 
 		<a name="Photography"></a> <!-- Don't forget to change the name here -->
 		<h2 class="sizeprojecttitle" > Photography </h2> <!-- you can fill it with different content. Don't forget to change the name also here.-->
@@ -343,32 +325,32 @@ and modify the ownstyle.css (or another .css depending on what scheme you chose)
 			</div>
 			<!-- * --> </div> <!-- * --> 
 			<!-- paste here --> 
+
+
+<div id="floatlink">
+		<a href="#">&uarr; Back to top</a>
+</div>
 </div>
 
-
-		<div id="floatlink"> 
-		<a href="#">&uarr; Back to top</a>
-		</div>
-		</br>
     <!-- Footer -->
 	<footer>
 	<hr>
       <div class="col-xs-12">
-        <p>Copyright &copy Raveyard-Weblate All rights reserved.</p> <!-- Here you can put your copyrigth -->
+        <p>Copyright &copy; Raveyard-Weblate All rights reserved.</p> <!-- Here you can put your copyrigth -->
       </div>
 	</footer>
 	
 	
-	
-	<!-- These are scripts, don't change them if you don't know what you're doing!
-    Don't forget to copy this to all of your sites.	-->
-    <script src="scripts/jquery.js"></script>
+ <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 	 <script src="scripts/jquery-2.1.4.min.js"></script>
     <script src="scripts/jquery.fitvids.js"></script>
     <script src="scripts/jquery.imagesloaded.min.js"></script>
     <script src="scripts/main.js"></script>  
-
-
+ 
 </body>
 
 </html>

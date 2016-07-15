@@ -17,17 +17,14 @@ body{
 /* Background Header
 /*=================================*/
 #intro-header-main { 
-	background: url("../images/bsp10.jpg") no-repeat center center; 
-	background-size: cover; /* <-insert your background-picture here*/
+	background: url("../images/bsp10.jpg") no-repeat center center;  /* <-insert your background-picture here*/
 } 
 #intro-header-bio { 
-	background: url("../images/bsp10.jpg") no-repeat center center;
-	background-size: cover;	
+	background: url("../images/bsp10.jpg") no-repeat center center;	
 	/* <-insert your background-picture here*/
 } 
 #intro-header-about { 
-	background: url("../images/bsp10.jpg") no-repeat center center;
-	background-size: cover; /* <-insert your background-picture here*/
+	background: url("../images/bsp10.jpg") no-repeat center center; /* <-insert your background-picture here*/
 } 
 /*
 Here you can change the color of the website! 
@@ -44,7 +41,7 @@ body{
 	
   }	
   
-.headertext {
+.intro-text{
 	color: #fefefe;	/*You may change the headertext to a light color if your background-image is to dark*/
 }
 

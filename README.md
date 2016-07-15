@@ -17,36 +17,25 @@ If you want to clone the repository you have to follow these steps:
 The repository will be cloned to the folder you chose.  
 If you downloaded the zip you simply unpack it.  
 
-You will find two folders (*css* and *images*) and the file *main.html*.  
+You will find two folders (*css*, *images* and *scripts*) and the files *Home.html*, *Bio.html* and *About.html*.  
 
 ## How to use it
 
-You have to work with the **main.html**. Open it with a editor of your choice.  
+You have to work with the **HTML files**. First open the *Home.html* it with a editor (e.g. Notepad++).  
 To see the result of your work open it in your browser.  
 The whole code is commented.   
 For example:
 
-    <!DOCTYPE html> 
-    <html>
+    <!-- WELCOME TO RAVEYARD-WEBLATE! -->
 
-    <head> 
-    <meta charset="utf-8"> 
-    <title>Raveyard Weblate</title>  <!-- Here you can put your own title -->
-    <link rel="stylesheet" href="style.css">  <!-- This is the external .css where the presentation
-     of the html document is described.-->
-    </head>
-
-    <body> <!-- The body is what you can SEE in your browser -->
-
-    
     <!-- THE BASICS: -->
 
     <!--COMMENTS -->
 
-    <!-- You have to use <!-- and -->
-    <!-- You have to close the comment or it will include everything as a comment that follows until you close it. -->
+    <!-- You can't see the comments on your website. You have to use < ! - - and - - > (without spaces) to close 
+    the comment or it will include everything as a comment that follows until you close it. -->
 
-    <!-- TAG -->
+    <!-- TAGS -->
     <!-- 
     You have to use tags to tell the html document in what way it should output your text.
     There are many different tags:
@@ -57,24 +46,23 @@ For example:
     [...]
     Don't forget to close your tags!
     -->
-
+    
     <!-- HEADLINES -->
-
+    
     <!-- 
     You can add different sized headlines to your website.
     <h1> ... </h1>
     <h2> ... </h2>
     [...]
-    -->
-    </body>
-    </html>
+    <h6> ... </h6>
+    The bigger the number, the smaller the size.
   
 There are many important information simply explained you need for understanding basic html and css.  
-You can change for example the partition of the site and you can add custom made buttons.
 
 Raveyard Weblate was built with:  
 Bootstrap  
 Gorgo by http://aristotheme.com/gorgo-portfolio-theme-for-kirby-cms.html  
 Social Buttons for Bootstrap by https://lipis.github.io/bootstap-social/  
 Font Awesome by https://github.com/FortAwesome/Font-Awesome  
+Header Style by http://blackrockdigital.github.io/startbootstrap-agency/  
 

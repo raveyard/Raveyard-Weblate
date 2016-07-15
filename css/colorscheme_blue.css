@@ -15,16 +15,13 @@ body{
 /* Background Header
 /*=================================*/
 #intro-header-main { 
-	background: url("...jpg") no-repeat center center; 
-	background-size: cover; /* <-insert your background-picture here*/
+	background: url("....jpg") no-repeat center center; /* <-insert your background-picture here*/
 } 
 #intro-header-bio { 
-	background: url("....jpg") no-repeat center center;
-	background-size: cover;	/* <-insert your background-picture here*/
+	background: url("...jpg") no-repeat center center;	/* <-insert your background-picture here*/
 } 
 #intro-header-about { 
-	background: url("...jpg") no-repeat center center;
-	background-size: cover; /* <-insert your background-picture here*/
+	background: url("...jpg") no-repeat center center;/* <-insert your background-picture here*/
 } 
 
 /*=================================*/
