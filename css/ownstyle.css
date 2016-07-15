@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+/*=================================*/
+/* Font Styles
+/*=================================*/
+/*This is the google font style, if you want to change it, 
+visit https://www.google.com/fonts and follow the instructions */
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	
+  }	
+	
+
+/*=================================*/
+/* Background Header
+/*=================================*/
+#intro-header-main { 
+	background: url("../images/bsp10.jpg") no-repeat center center;  /* <-insert your background-picture here*/
+} 
+#intro-header-bio { 
+	background: url("../images/bsp10.jpg") no-repeat center center;	
+	/* <-insert your background-picture here*/
+} 
+#intro-header-about { 
+	background: url("../images/bsp10.jpg") no-repeat center center; /* <-insert your background-picture here*/
+} 
+/*
+Here you can change the color of the website! 
+You can play around with colors !
+Visit http://www.colorhexa.com/ and http://www.hexcolortool.com/ to get the hexa code and replace the color of the different elements of the site! 
+*/
+/*=================================*/
+/* Color Styles
+/*=================================*/
+
+body{
+	  color: #000000; /*This is the text color of all the text without specifications.*/
+	  background-color: #fafafa; /* this is the background color of your whole site */
+	
+  }	
+  
+.intro-text{
+	color: #fefefe;	/*You may change the headertext to a light color if your background-image is to dark*/
+}
+
+/*navbar icon*/
+.cd-nav-trigger {
+	background-color: #303030;
+}
+
+/*stroke and arrow color of the navbar icon (change all to same color)*/
+.cd-nav-trigger circle {
+  stroke: #ffffff;
+}
+.navigation-is-open .cd-nav-trigger circle {
+   stroke: #ffffff;
+}
+.cd-nav-trigger .cd-nav-icon {
+    background-color: #ffffff;
+}
+
+/*activated navbar menu*/
+.cd-nav {
+	
+	background-color: #303030;
+}
+
+/*menu navbar text*/
+ .cd-nav .cd-primary-nav a{
+	 
+	  color: #cfcfcf;	 
+ }
+ 
+/* Select a lighter color for selected text!*/
+ .cd-nav .cd-primary-nav a.selected {
+	 
+    color: #ffffff;
+}
+
+ /* Select a lighter color for a nice hover effect!*/
+.no-touch .cd-nav .cd-primary-nav a:hover {
+    color: #ffffff;
+}
+
+/* right navbar text*/
+.cd-nav .cd-contact-info li {
+	color: #cfcfcf;;	
+}
+.cd-nav .cd-contact-info a {
+    color: #cfcfcf;;	
+}
+
+ /* Select a lighter color for a nice hover effect!*/
+.cd-nav .cd-contact-info a:hover {
+    color: #ffffff;
+}
+
+/* pagination */
+/* select the same color as the body background-color */
+.breadcrumb{
+background-color: #fafafa;
+}
+/*pagination text*/
+.breadcrumb a {
+     color: #1f1f1f;
+	 font-size: 25px;
+}
+.breadcrumb a:hover {
+     text-decoration: none;
+	 color: #cfcfcf;
+}
+/*slashes between pagination*/
+.breadcrumb > li + li:before {
+   color: #1f1f1f;
+   content: " | ";
+}

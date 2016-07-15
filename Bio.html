@@ -1,0 +1,160 @@
+<!DOCTYPE html> 
+<html>
+<head> <!-- In the head are information like the title of the website and what stylesheets are used. 
+Remember to copy the whole head into all of your sites! -->
+<meta charset="utf-8"> 
+<title>Raveyard Weblate</title> <!-- Here you can put your own Title -->
+
+<!-- This is the external .css file from Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+<!-- This is the external .css where the presentation of the html document is described.
+Don't change it if you don't know what you're doing!-->
+<link rel="stylesheet" href="css/style.css">
+
+<!--This is the stylesheet, where you can change fonts and colors. 
+To use it, remove the comment Tag or rather add the tag.
+Don't forget to change it for all your sites!
+Create your own color style or choose between those 4 color schemes: -->
+<link rel="stylesheet" href="css/ownstyle.css"> <!-- this is now selected -->
+<!-- <link rel="stylesheet" href="css/colorscheme_black.css"> -->
+<!--<link rel="stylesheet" href="css/colorscheme_vanilla.css"> -->
+<!-- <link rel="stylesheet" href="css/colorscheme_blue.css"> -->
+<!-- <link rel="stylesheet" href="css/colorscheme_lilac.css"> -->
+<!--  <link rel="stylesheet" href="css/colorscheme_green.css"> -->
+
+ <!-- These are the external files for the social media glyphicons -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="css/bootstrap-social.css" rel="stylesheet" >
+
+
+<!-- This is the google font style, if you want to change it, visit https://www.google.com/fonts and insert the new style here 
+and modify the ownstyle.css (or another .css depending on what scheme you chose)
+-->
+ <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic|Quicksand' rel='stylesheet' type='text/css'>
+ 
+ 
+<!-- This is the external .js file from Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+    <script src="scripts/modernizr.js"></script>
+
+
+</head>
+
+<body> 
+<!--The body is what you can SEE --> 
+ <!-- Navigation
+	First you have to adjust the Navigationbar. The Navbar has to be in all of your sites at the beginning. 
+	-->
+	
+     <a href="#cd-nav" class="cd-nav-trigger">Menu 
+        <span class="cd-nav-icon"></span>
+
+        <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+            <circle class = "color-circle" fill="transparent" stroke="#ffffff" 
+			stroke-width="2" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+        </svg>
+    </a>
+  
+    <div id="cd-nav" class="cd-nav">
+     <div class="cd-navigation-wrapper">
+        <div class="cd-half-block">
+            <nav>
+              <ul class="cd-primary-nav">
+                <li><a href="Home.html">Home</a></li>  <!-- This is the Navigation Bar -->
+				<li><a href="Bio.html">Biography</a></li> <!-- You can change the names, but if you do it, remember to change the filenames in the folder, too! -->
+				<li><a href="About.html">About</a></li> <!-- e.g. if you change "About" to "Team", you have to rename the "About.html" also to "Team.html"! -->
+				<li><a href="#">etc</a></li>
+               </ul>
+            </nav>
+        </div>
+            
+        <div class="cd-half-block">
+            <address>
+                <ul class="cd-contact-info">
+                    <li><a href="mailto:raveyardmedia@gmail.com">raveyardmedia@gmail.com</a></li> <!-- Add here your email-address (in href AND between the Tags)-->
+                    <li>0123456789</li> <!-- Add here your phone-number -->
+                    </ul>
+                    <ul class="cd-contact-socials"> <!-- To change and add the social media buttons,
+					you can go to css/bootstrap-social and look for the button you need.
+					Place in "href" the link to your social network site. -->
+						<li><a href="https://github.com/raveyard/raveyard-weblate" class="btn btn-social-icon btn-github"> <span class="fa fa-github"></span></a></li> 
+                        <li><a href="yoursocialmediaaddress" class="btn btn-social-icon btn-facebook"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="yoursocialmediaaddress" class="btn btn-social-icon btn-twitter"> <span class="fa fa-twitter"></span></a></li>
+						<li><a href="yoursocialmediaaddress" class="btn btn-social-icon btn-tumblr"> <span class="fa fa-tumblr"></span></a></li>
+                    </ul>
+                </address>
+            </div>
+        </div> 
+    </div>
+<!-- Here starts your website!-->
+ <header id="intro-header-bio">
+ <!-- This is the "Header" of your website. It strechtes over the whole width of the screen.
+  You can write there important things e.g. what kind of portfolio this is.
+  You can add your own background picture if you open the style.css and search ".intro-header" and insert the url
+  or the path of the picture in "background" -->
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Our story!</div>
+                <div class="intro-lead-in">This is how we started.</div>
+            </div>
+        </div>
+    </header>
+	
+	 <!-- Page Content -->
+<div class="container-fluid">
+	<div class="col-lg-6">
+	<div class="text-center">
+ <h2 class="text-center">Raveyard</h2>
+ </br>
+   <h3>
+	This is how we came to be. </h3>
+	</br>
+ <p align="justify">
+ In October 2015 we started studying media studies in Bayreuth, Germany. After a couple of months of getting to know everybody in the class
+	we had a solid foundation of what should later be called "RaveYard" - friendship. <br/>
+	
+	This close group of friends then attended several courses together and formed a group in multiple temporary projects like GameJams and film making competitions.
+	We soon noticed our interdisciplinary skillsets and backgrounds, as well as experiences we were able to make before studying in Bayreuth,
+	corresponded in perfect harmony when working together on said projects. This lead us to give our group a name which would later be our professional identity - Team Raveyard.
+	Now we work on several computer game or film projects, either for university or professionally, to inspire others or simply for immersive enjoyment.
+	<br/><br/>
+	We'll be going our way where nobody else may have been, and leave a trail for everybody else to hopefully follow along.
+</p>
+</div>
+</div>
+<div class="col-lg-6">
+<img class="img-circle img-responsive img-center" src="images/RaveYard.png" alt="">
+</div>	
+</div>	
+
+
+<hr>
+<div id="floatlink">
+		<a href="#">&uarr; Back to top</a>
+</div>
+</div>
+
+    <!-- Footer -->
+	<footer>
+	<hr>
+      <div class="col-xs-12">
+        <p>Copyright &copy; Raveyard-Weblate All rights reserved.</p> <!-- Here you can put your copyrigth -->
+      </div>
+	</footer>
+	
+	
+ <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	 <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.fitvids.js"></script>
+    <script src="scripts/jquery.imagesloaded.min.js"></script>
+    <script src="scripts/main.js"></script>  
+ 
+</body>
+
+</html>
